@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,400&display=swap');
+/* uttility classes for css */
+.m1{
+    margin: 50px;
+}
+.mt{
+    margin-top: 20px;
+}
+.mb{
+    margin-bottom: 10px;
+}
+.p1{
+    padding: 20px;
+}
+.pb{
+    padding-bottom: 10px;
+}
+.pt{
+    padding-top: 10px;
+}
+.d-flex{
+    display: flex;
+}
+.gap{
+    gap: 30px;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-evenly{
+    justify-content: space-evenly;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.text-aling{
+    text-align: center;
+}
+.ul-list{
+    list-style-type: none;
+    font-size: 20px;
+    /* margin-top: 20px; */
+    display: flex;
+    align-items: center;
+    
+}
+.w-100{
+    width: 100%;
+}
+.h-100{
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: '://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap';
+    background-color: #000;
+}
+:root{
+    --background: #ff0000;
+    --foreground: #fff;
+    --primary: #6a74c9;
+    --text-black: #484848;
+    --text-gray: #4f4f4f;
+    --border: #ebebeb;
+    --shadow: #b1b1b140;
+    --red: #ff0000;
+    --white: #ffffff;
+    --black:#000000;
+    --gray:#b7b5ad;
+
+}
+/* navbar cssstyle start */
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+    color: var(--foreground);
+}
+.navbar-btn{
+     padding: 10px 20px 10px 20px;
+     background-color: var(--background);
+     border-radius: 20px;
+     border: none;
+     color: var(--foreground);
+}
+.navli{
+    cursor: pointer;
+}
+.navarrow{
+    color: var(--background);
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #fff;
+    margin-left: 10px;
+}
+.headder{
+    display: flex;
+}
+.container{
+    color: var(--foreground);
+}
+/* category start */
+.h1{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,400&display=swap');
+}
+.category-img{
+    width: 206px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.category-para{
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: transparent;
+}
+/* discoversection start */
+.discover{
+    background-color: #3a3939;
+}
+.discover.section{
+    padding: 50px;
+
+}
+h3{
+    color: var(--background);
+    background-color: #3a3939;
+    text-align: center;
+    letter-spacing: 0.5rem;
+    margin-top: 1rem;
+}
+h4{
+    text-align: center;
+    color: var(--foreground);
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: #3a3939;
+}
+p{
+    text-align: justify;
+    margin: 10px;
+    background-color: #3a3939;
+}
+.discover-btn{
+    background-color: transparent;
+    color: var(--foreground);
+    border-radius: 40px;
+    border: 1px solid var(--text-gray);
+    padding: 10px 20px 10px 20px;
+    margin: 40px;
+    
+}
+.dis-arrow{
+    padding: 10px;
+    background-color: var(--foreground);
+    color: var(--background);
+    border-radius: 20px;
+    margin-left: 10px;
+}
+/* our dealstyle start */
+.our-deal{
+    color: var(--white);
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: poppins;
+}
+.deal-img{
+    width: 330px;
+    height: 225px;
+    object-fit: cover;
+}
+.img-deal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.para{
+    color: var(--gray);
+    background-color:transparent;
+    font-size: 13px;
+
+}
+h6{
+    font-size: 20px;
+    font-family: @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+}
+.deal-btn{
+    background-color: var(--red);
+    color: var(--white);
+    border-radius: 40px;
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    /* margin-left: 115px; */
+    border: none;
+    text-align: center;
+    
+}
+:hover.deal-btn{
+    background-color: #750707;
+    color: #000000;
+    cursor: pointer;
+}
